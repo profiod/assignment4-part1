@@ -35,7 +35,7 @@
       }
     }
     if (!isset($_GET["min-multiplier"])){
-      echo "<p>Error: min-multiplier not passed.</p><br>";
+      echo "<p>Error: min-multiplier not passed.</p>";
       $exitEarly = true; 
     }
     else {
@@ -67,6 +67,25 @@
       }
       if ($max_multiplicand < $min_multiplicand){
         echo "<p>Error: max-multiplicand is greater than min-multiplicand.</p>"; 
+        $exitEarly = true;         
+      }
+    }
+    if(!$exitEarly){
+      if($min_multiplier < 0) {
+        echo"<p>Error: min-multiplier is not greater than 0.</p>"; 
+        $exitEarly = true;
+      }
+      if($max_multiplier < 0) {
+        echo"<p>Error: max-multiplier is not greater than 0.</p>"; 
+        $exitEarly = true;
+      }
+      if($min_multiplicand < 0) {
+        echo"<p>Error: min-multiplicand is not greater than 0.</p>"; 
+        $exitEarly = true;
+      }
+      if($max_multiplicand < 0) {
+        echo"<p>Error: max-multiplicand is not greater than 0.</p>"; 
+        $exitEarly = true;
       }
     }
     if (!$exitEarly){

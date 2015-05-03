@@ -2,3 +2,14 @@ Start: Sat, 2 May 2015 14:04:19 -0400
 End: Sat, 2 May 2015 18:34:25 -0400
 Tasks: Completed multtable.php 
 
+Start: Sat, 2 May 2015 19:29:21 -0400
+End: Sat, 2 May 2015 23:14:49 -0400
+Tasks: Completed loopback.php and fixed an error with multtable.php
+
+Start: Sun, 3 May 2015 8:13:38 -0400
+End: Sun, 3 May 2015 11:06:47 -0400
+Tasks: Completed login.php and content1.php. 
+
+Start: Sun, 3 May 2015 11:37:02 -0400
+End: Sun, 3 May 2015 12:13:36 -0400
+Tasks: Completed content2.php, add the content2.php link to content1.php, and tested all of the pages for this assignment on firefox, chrome, ie, and opera.  
